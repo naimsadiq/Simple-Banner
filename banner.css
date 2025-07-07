@@ -1,0 +1,74 @@
+body{
+    /* margin: 0 auto; */
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    /* gap: 20px; */
+    justify-content: center;
+}
+
+header ul li{
+    margin-right: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header ul li a:hover{
+    color: white;
+    background-color: gray;
+}
+
+.banner-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-size: 1.25em;
+    gap: 30px;
+    max-width: 1240px;
+    padding: 0 30px;
+    background-color: greenyellow;
+}
+
+.banner-conteiner h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.banner-conteiner h1, p{
+    text-align: center;
+}
+
+.banner-conteiner p{
+    font-size: 19px;
+    color: black;
+    line-height: 25px;
+}
+
+.banner-conteiner .button-container{
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.banner-conteiner img{
+    width: 100%;
+    height: 400px;
+}
+
+.banner-conteiner > div { 
+    text-align: center;
+}
